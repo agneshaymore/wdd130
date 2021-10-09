@@ -9,7 +9,7 @@ footer {
   margin: 0 auto;
   border: 1px solid #a4afc1;
   padding: 0.5rem;
-  background-color: #dcd0ba;
+  background-color: #d8d2c6;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ header {
 
 main {
   margin: 1rem auto;
-  background-color: #b6b38a;
+  background-color: #cdcec0;
   padding: 1rem;
 }
 
