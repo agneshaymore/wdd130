@@ -1,0 +1,108 @@
+/*   CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.
+
+Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
+
+-- MDN Intro to CSS Basic Box Model  */
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  /*  Agnes to choose height  */
+  height: 100vh;
+  /*  Agnes to choose font  */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+  margin: 0 auto;
+  border: 1px solid #a4afc1;
+  padding: 0.5rem;
+  background-color: #d8d2c6;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  grid-template-columns: 200px 1fr;
+}
+
+main {
+  margin: 1rem auto;
+  background-color: #cdcec0;
+  padding: 1rem;
+}
+
+footer {
+  grid-template-columns: 1fr 300px;
+}
+
+/*  css rules  */
+
+h1 {
+  color: #323b3a;
+  font-size: 2.2rem;
+  /*  Agnes to choose font  */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #3a3730;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  color: #070707;
+}
+
+.mainnav {
+  list-style-type: none;
+  /*  "list-style-type: none"  gets rid of bullets  */
+  display: flex;
+  /*  "flex"  children items work together in a row  */
+  /* width: 600px; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainnav li {
+  flex: 1 1 auto;
+  /*  1 to 1 relationship and auto fills  */
+}
+
+.mainnav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  /*  Agnes to choose colors  */
+  background-color: #abc;
+  border: 1px solid #444;
+  font-size: 1.2rem;
+}
+
+.mainnav a:hover {
+  /*  Agnes to choose colors  */
+  color: #abc;
+  background-color: black;
+}
+
+/* Class Selectors */
+
+/* .page max-width suggested to be at least 960px. */
+.page {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.social a {
+  text-decoration: none;
+}

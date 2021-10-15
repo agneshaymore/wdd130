@@ -54,3 +54,7 @@ p {
   width: 100px;
   height: auto;
 }
+
+.social a {
+  text-decoration: none;
+}
