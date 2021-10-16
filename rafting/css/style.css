@@ -63,7 +63,7 @@ p {
   /*  "list-style-type: none"  gets rid of bullets  */
   display: flex;
   /*  "flex"  children items work together in a row  */
-  /* width: 600px; */
+  width: 600px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -78,15 +78,18 @@ p {
   display: block;
   padding: 1rem;
   text-decoration: none;
-  /*  Agnes to choose colors  */
-  background-color: #abc;
+  /*  Agnes choose colors  darkbrown#5b5557*/
+  background-color: #5b5557;
   border: 1px solid #444;
-  font-size: 1.2rem;
+  /*  Agnes try changing font-size from 1.2rem  */
+  font-size: 1.6rem;
+  /* Agnes try to change text color */
+  color: #d8d2c6;
 }
 
 .mainnav a:hover {
   /*  Agnes to choose colors  */
-  color: #abc;
+  color: #d8cabd;
   background-color: black;
 }
 
