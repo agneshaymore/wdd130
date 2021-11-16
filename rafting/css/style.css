@@ -254,29 +254,25 @@ p {
   /* Pricing Grid Class Container */
   display: grid;
   margin: 15px;
-  /* no need -
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  */
-  grid-gap: 20px;
+  /* no need -    grid-template-rows: repeat(5, 1fr);  */
+  grid-template-columns: repeat(6, 1fr);
+
+  grid-auto-rows: 400px;
+  /* grid-gap: 10px; */
   /* justify-items: center; */
   align-items: center;
-  grid-gap: 2rem;
+  text-align: center;
+  grid-gap: 1rem;
 }
 
 /* Grid */
+/*
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   grid-template-rows: 4ch auto minmax(50px, 1fr);
 }
-
-.col-head {
-  display: block;
-  padding: 5px;
-  border-bottom: 1px solid #333;
-  text-align: center;
-}
+*/
 
 /* Agnes choose color for pricing table. */
 .grid-col {
