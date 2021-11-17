@@ -36,7 +36,7 @@ main {
 }
 
 footer {
-  grid-template-columns: 1fr 360px;
+  grid-template-columns: 1fr 400px;
 }
 
 /*  css rules  */

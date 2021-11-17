@@ -373,6 +373,79 @@ img {
 }
 */
 
+/*  Contact.HTML  */
+
+.us {
+  /* Items Class Container
+  height: 480px; */
+  display: grid;
+  margin: 15px;
+  /* no need -
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  */
+  grid-gap: 20px;
+  /* justify-items: center; */
+  align-items: center;
+  grid-gap: 2rem;
+}
+
+.cabinpic {
+  /*  not needed- position: relative;  */
+  grid-column: 2/3;
+  grid-row: 1;
+  /* not needed- justify-self: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 1em;
+}
+
+.contacttext {
+  /*  not needed- position: relative;  */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /*  text-align: center;  */
+  /* height: 300px;
+    width: 400px;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 1em;
+}
+
+.messagetext {
+  /*  not needed- position: relative;  */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /*  text-align: center;  */
+  /* height: 300px;
+    width: 400px;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 1em;
+}
+
+.rampic {
+  /*  not needed-  position: relative;  */
+  grid-column: 1;
+  grid-row: 2;
+  /* justify-self: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 1em;
+}
+
 /* Class Selectors */
 
 /* .page max-width suggested to be at least 960px. */
