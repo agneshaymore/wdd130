@@ -259,14 +259,18 @@ body {
 }
 
 .gridtable {
-  margin: 0;
+  margin: auto;
   background-color: #d3ccc3;
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-section {
+.triplength,
+.options,
+.startday,
+.rate,
+.minimumage {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
 }
