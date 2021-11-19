@@ -35,12 +35,6 @@ body {
   /*  Agnes to choose font  */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*  Agnes to choose height  */
-  height: 100vh;
-  /*  display: flex;  in body only applies to its children.  */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 header,
@@ -94,14 +88,6 @@ p {
   color: #070707;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px;
-}
-
-.wallpaper {
-  background-image: url("../images/packer_move_the_water.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #676d6e;
 }
 
 .mainnav {
@@ -356,6 +342,20 @@ img {
 .page {
   max-width: 970px;
   margin: 0 auto;
+  height: 100vh;
+  /*  display: flex;  in body only applies to its children.  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallpaper {
+  background-image: url("../images/packer_move_the_water.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #676d6e;
 }
 
 .logo {
