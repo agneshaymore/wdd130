@@ -80,6 +80,7 @@ h2 {
   margin: 10px;
   /* margin to match p{} */
   background-color: #8c8f80;
+  padding: 5px;
 }
 
 h3 {
@@ -93,6 +94,14 @@ p {
   color: #070707;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px;
+}
+
+.wallpaper {
+  background-image: url("../images/packer_move_the_water.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #676d6e;
 }
 
 .mainnav {
@@ -132,14 +141,6 @@ padding: 0;  */
   color: #d8cabd;
   background-color: black;
   font-weight: 700;
-}
-
-.wallpaper {
-  background-image: url("../images/packer_move_the_water.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #676d6e;
 }
 
 .heroimage {
@@ -312,7 +313,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   margin: 20px auto;
   padding: 1em;
 }
