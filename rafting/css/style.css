@@ -342,7 +342,7 @@ img {
 .page {
   max-width: 970px;
   margin: 0 auto;
-  height: 100vh;
+  /*  height: 100vh;  = remove, caused the Header to not be in view. */
   /*  display: flex;  in body only applies to its children.  */
   display: flex;
   flex-direction: column;
