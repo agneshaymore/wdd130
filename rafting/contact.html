@@ -19,130 +19,109 @@
   </head>
 
   <body>
-    <style>
-      body {
-        background-image: url("images/packer_move_the_water.jpeg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-    </style>
+    <div class="wallpaper">
+      <div class="page">
+        <header>
+          <img
+            class="logo"
+            src="images/raftingcompas.png"
+            alt="Image of Cheeri-Oars River Adventures logo (Drawing of top view of raft with oars.)"
+          />
+          <!-- <p>Cheeri-Oars River Adventures Company</p>  how to right align?-->
+          <h1>Cheeri-Oars River Adventures</h1>
 
-    <div class="page">
-      <header>
-        <img
-          class="logo"
-          src="images/raftingcompas.png"
-          alt="Image of Cheeri-Oars River Adventures logo (Drawing of top view of raft with oars.)"
-        />
-        <!-- <p>Cheeri-Oars River Adventures Company</p>  how to right align?-->
-        <h1>Cheeri-Oars River Adventures</h1>
+          <nav>
+            <ul class="mainnav">
+              <li><a href="index.html" title="Cheeri-Oars Home">Home</a></li>
+              <li>
+                <a href="pricing.html" title="Go to Pricing">Pricing</a>
+              </li>
+              <li>
+                <a href="contact.html" title="Go to Contact Us">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-        <nav>
-          <ul class="mainnav">
-            <li><a href="index.html" title="Cheeri-Oars Home">Home</a></li>
-            <li>
-              <a href="pricing.html" title="Go to Pricing">Pricing</a>
-            </li>
-            <li>
-              <a href="contact.html" title="Go to Contact Us">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+        <main>
+          <!--  img alt="placeholder image description"  -->
+          <h2>
+            If you would like an update on river conditions before coming,
+            please contact us.
+          </h2>
 
-      <main>
-        <!--  img alt="placeholder image description"  -->
-        <h2>
-          If you would like an update on river conditions before coming, please
-          contact us.
-        </h2>
+          <div class="us">
+            <section class="cabinpic">
+              <img
+                src="images/salmon-cabins_small.jpg"
+                alt="Image of old log cabins."
+              />
+            </section>
 
-        <div class="us">
-          <section class="cabinpic">
-            <img
-              src="images/salmon-cabins_small.jpg"
-              alt="Image of old log cabins."
-            />
-          </section>
+            <section class="contacttext">
+              <h2>Contact us</h2>
 
-          <section class="contacttext">
-            <h2>Contact us:</h2>
+              <p>Phone: (801)867-5309</p>
+              <p>Email: golda-webmaster2021@haymore.com</p>
+              <p>Business hours: 9 a.m. to 5 p.m daily*.</p>
+              <p>Months in operation: April through September.</p>
 
-            <p>Phone: (801)867-5309</p>
-            <p>Email: golda-webmaster2021@haymore.com</p>
-            <p>
-              Business hours: 9am to 5pm, open daily April through September.
-            </p>
-
-            <p>
-              <a href="https://goo.gl/maps/TgFZpB3CWWDw5oUo9" target="_blank"
-                >Map to the nearest meeting place.</a
-              >
-            </p>
-          </section>
-
-          <section class="messagetext">
-            <h2>Leave us a message:</h2>
-
-            <form action="/action_page.php">
               <p>
+                <a href="https://goo.gl/maps/TgFZpB3CWWDw5oUo9" target="_blank"
+                  >Map to the nearest meeting place.</a
+                >
+              </p>
+            </section>
+
+            <section class="messagetext">
+              <h2>📧 Leave a Message</h2>
+              <form action="" method="get">
                 <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" />
-              </p>
-              <p>
+                <input type="text" id="fname" name="fname" required />
                 <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" />
-              </p>
-              <p>
+                <input type="text" id="lname" name="lname" required />
                 <label for="email">Email address:</label>
-                <input type="text" id="email" name="email" />
-              </p>
-              <p>
+                <input type="text" id="email" name="email" required />
                 <label for="phone">Phone number:</label>
-                <input type="text" id="phone" name="phone" />
-              </p>
-              <p>
+                <input type="phone" id="phone" name="phone" />
                 <label for="subject">Subject:</label>
                 <input type="text" id="subject" name="subject" />
-              </p>
-              <p>
                 <label for="message">Message:</label>
-                <input type="text" id="message" name="message" />
-              </p>
-              <p><input type="submit" value="Submit" /></p>
-            </form>
-          </section>
+                <textarea id="message" name="message" required></textarea>
+                <button id="btnSubmit" type="submit">Send Message</button>
+              </form>
+            </section>
 
-          <section class="rampic">
-            <img
-              src="images/bighorn-ram_small.jpg"
-              alt="Image of one bighorn ram on mountain, close view."
-            />
-          </section>
-        </div>
-      </main>
+            <section class="rampic">
+              <img
+                src="images/bighorn-ram_small.jpg"
+                alt="Image of one bighorn ram on mountain, close view."
+              />
+            </section>
+          </div>
+        </main>
 
-      <footer>
-        <p>&copy; Fall 2021 Cheeri-Oars | Agnes Haymore | WDD 130 Team 1</p>
-        <div class="social">
-          <a href="https://www.facebook.com" target="_blank">
-            <img
-              src="images/fb.png"
-              alt="Image of Facebook logo"
-              class="facebook"
-            />
-          </a>
+        <footer>
+          <p>&copy; Fall 2021 Cheeri-Oars | Agnes Haymore | WDD 130 Team 1</p>
+          <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="images/fb.png"
+                alt="Image of Facebook logo"
+                class="facebook"
+              />
+            </a>
 
-          <a href="https://www.twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="Image of Twitter logo" />
-          </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="Image of Twitter logo" />
+            </a>
 
-          <a href="https://www.instagram.com" target="_blank">
-            <img src="images/insta.png" alt="Image of Instagram logo" />
-          </a>
-        </div>
-      </footer>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="images/insta.png" alt="Image of Instagram logo" />
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
