@@ -139,6 +139,10 @@ p {
   opacity: 0.9;
 }
 
+.calltoaction h2 {
+  color: #feffee;
+}
+
 .items {
   /*  Items Class Container  */
   display: grid;
@@ -258,6 +262,10 @@ img {
   border-radius: 100px;
 }
 
+.groupdiscount h2 {
+  color: #f0faff;
+}
+
 /*  Contact.HTML  */
 
 .us {
@@ -290,7 +298,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin: 20px auto;
   padding: 1em;
 }
@@ -306,8 +314,8 @@ img {
   /*  not needed- position: relative;  */
   grid-column: 2/3;
   grid-row: 1/2;
-  /* text-align: start-flex;
-  width: 400px;  */
+  text-align: left;
+  /* width: 400px;  */
 }
 
 .messagetext {
