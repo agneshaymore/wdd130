@@ -202,6 +202,11 @@ p {
   /* text-align: center; */
 }
 
+.cometext h2 {
+  width: 100%;
+  text-align: center;
+}
+
 /*  Pricing.HTML  */
 
 /* Grid */
