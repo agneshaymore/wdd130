@@ -4,6 +4,14 @@ Every box is composed of four parts (or areas), defined by their respective edge
 
 -- MDN Intro to CSS Basic Box Model  */
 
+:root {
+  /*  other -- use rem base (scale to font size)  */
+  --maxwidth: 960px;
+  --headfootcolor: #d8d2c6;
+  --wallpaperaltcolor: #b0b59e;
+  /* --wallpaperaltcolor: #d8d6bd; */
+}
+
 body {
   font-size: 16px;
   margin: 0;
@@ -23,11 +31,18 @@ footer {
   display: grid;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
-
+/*
 header {
   grid-template-columns: 200px 1fr;
 }
+*/
+
+/*
+.footer {
+  max-width: var(--maxwidth);
+*/
 
 main {
   margin: 1rem auto;
@@ -85,8 +100,8 @@ p {
   /*  "flex"  children items work together in a row  */
   /* width: 100%;
    "width" was auto */
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
   text-align: center;
 }
 
@@ -116,8 +131,56 @@ p {
   font-weight: 700;
 }
 
+.pageheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: 20px auto;
+  padding: 1em;  */
+}
+
+.logo {
+  /*  not needed- position: relative;  */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /*  text-align: center;  */
+  padding-right: 20px;
+}
+
+.named {
+  /*  not needed- position: relative;  */
+  grid-column: 2/3;
+  grid-row: 1/2;
+  /* not needed- justify-self: center; */
+}
+
+.named p {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+}
+
 .email a {
   /*  no text-decoration, don't want underline etc.  */
   text-decoration: none;
   text-align: right;
+}
+
+.page {
+  max-width: var(--maxwidth);
+  margin: 0 auto;
+  /*  height: 100vh;  = remove, caused the Header to not be in view. */
+  /*  display: flex;  in body only applies to its children.  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallpaper {
+  background-image: url("../images/meme_wixom_faith_beyond_reason.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: var(--wallpaperaltcolor);
 }

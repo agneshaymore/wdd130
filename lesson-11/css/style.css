@@ -1,0 +1,69 @@
+/* Lesson 11: Form */
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  padding: 0.5rem;
+  background-color: #a8b099;
+}
+
+body {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 0;
+  border: 1px solid #b0b59e;
+  padding: 0.5rem;
+  width: 500px;
+  background-color: #d8d6bd;
+}
+
+form {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: 1fr 1fr;
+  width: 450px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  padding: 0.35rem;
+  font-size: 1.1rem;
+}
+
+label {
+  text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #cdccba;
+}
+
+button {
+  grid-column: 1/3;
+}
+
+.wallpaper {
+  background-image: url("../images/meme_christofferson_conversion.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #b6bec1;
+}
