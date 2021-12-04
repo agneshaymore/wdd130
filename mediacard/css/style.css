@@ -1,9 +1,15 @@
 /*  Week 12: Media Card - Oakland CA Temple */
+/*  Media Card requirements video explanation.  */
+/*  https://www.loom.com/share/6974513eb1144639a2fe26f312ef0070  */
+/*  Official Temple List: https://www.churchofjesuschrist.org/temples/list  */
+/*  Temples of The Church of Jesus Christ of Latter-day Saints - unofficial comprehensive site.  */
+/*  https://churchofjesuschristtemples.org/temples/  */
 
 body {
   background-color: #ddd3b8;
   /* height: 100vh; */
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif; /* choose font */
@@ -12,11 +18,15 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   /* nice colors in background gradient */
   /* background: linear-gradient(to right, #8e9eab, #eef2f3); */
   background: linear-gradient(to right, #f7eedd, #fffff8);
   justify-content: center;
-  /* Rqmt: The <div class="card"> must have a width dimension of ~400px. */
+  /* Required: The <div class="card"> must have a width dimension of ~400px. */
   width: 400px;
   box-shadow: -1em 0 0.4em #c8c5cc;
   position: relative;
@@ -38,14 +48,13 @@ body {
   transform: scale(1.5);
 }
 
-/* QUESTION: is this correct? Not showing.  */
+/* https://emojipedia.org/white-heart/  */
+/*  Brother Blazzard's hint== content: "\f004";  */
 .heart {
   margin: 0;
   position: absolute;
-  top: 5%;
-  right: 5%;
-  font-family: "FontAwesome";
-  content: "\f004";
+  top: 6%;
+  right: 7%;
   font-size: 15px;
   color: white;
 }
