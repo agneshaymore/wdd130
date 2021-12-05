@@ -14,10 +14,9 @@ Every box is composed of four parts (or areas), defined by their respective edge
 
 body {
   font-size: 16px;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   /*  Agnes to choose height  */
-  height: 100vh;
+  /* height: 100vh; */
   /*  Agnes to choose font  */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
@@ -29,10 +28,10 @@ footer {
   border: 1px solid #543930;
   padding: 0.5rem;
   background-color: #e9d9b5;
-  display: grid;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 /*
 header {
@@ -49,6 +48,11 @@ main {
   margin: 1rem auto;
   background-color: #f0e9cf;
   padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -146,7 +150,7 @@ p {
   grid-column: 1/2;
   grid-row: 1/2;
   /*  text-align: center;  */
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
 .named {
