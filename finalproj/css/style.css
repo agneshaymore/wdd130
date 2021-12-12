@@ -15,9 +15,6 @@ Every box is composed of four parts (or areas), defined by their respective edge
 body {
   font-size: 16px;
   margin: 0 auto;
-  /*  Agnes to choose height  */
-  /* height: 100vh; */
-  /*  Agnes to choose font  */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
 }
@@ -33,16 +30,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-/*
-header {
-  grid-template-columns: 200px 1fr;
-}
-*/
-
-/*
-.footer {
-  max-width: var(--maxwidth);
-*/
 
 main {
   margin: 1rem auto;
@@ -102,11 +89,6 @@ p {
   list-style-type: none;
   /*  "list-style-type: none"  gets rid of bullets  */
   display: flex;
-  /*  "flex"  children items work together in a row  */
-  /* width: 100%;
-   "width" was auto */
-  /* margin: 0; */
-  /* padding: 0; */
   text-align: center;
 }
 
@@ -122,7 +104,6 @@ p {
   /*  Agnes choose colors  darkbrown#5b5557*/
   background-color: #7e7645;
   border: 1px solid #444;
-  /*  Agnes try changing font-size from 1.2rem  */
   font-size: 1.2rem;
   /* Agnes try to change text color */
   color: #fab77f;
@@ -146,23 +127,14 @@ p {
 }
 
 .logo {
-  /*  not needed- position: relative;  */
-  grid-column: 1/2;
-  grid-row: 1/2;
-  /*  text-align: center;  */
-  /* padding-right: 20px; */
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.named {
-  /*  not needed- position: relative;  */
-  grid-column: 2/3;
-  grid-row: 1/2;
+.named h1 {
   /* not needed- justify-self: center; */
-}
-
-.named p {
-  font-family: "Courier New", Courier, monospace;
-  margin: 0px;
+  padding-bottom: 5px;
 }
 
 .email a {
