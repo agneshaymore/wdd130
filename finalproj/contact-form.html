@@ -76,88 +76,100 @@
         </header>
 
         <main>
-          <div class="sfbaynature">
-            <section class="homerow">
-              <section class="compass">
-                <h2>North</h2>
-                <h2>West</h2>
-                <h2>East</h2>
-                <h2>South</h2>
-              </section>
-              <section class="hikeimage">
-                <img
-                  src="images/goldengatebridge_small.jpeg"
-                  alt="Image of the Golden Gate bridge in the evening, far view."
+          <div class="contactinfo">
+            <!--  form action is an empty URL.  -->
+            <section class="form">
+              <h3>📧 Leave a Message</h3>
+              <form action="" method="get">
+                <label for="fname">First name:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  required
+                  placeholder="Enter first name"
                 />
-              </section>
+                <label for="lname">Last name:</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  required
+                  placeholder="Enter last name"
+                />
+                <label for="email">Email address:</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter email address"
+                />
+                <label for="phone">Phone number:</label>
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter phone number"
+                />
+
+                <label for="street">Street address:</label>
+                <input
+                  type="text"
+                  id="street"
+                  name="street"
+                  placeholder="Enter street address"
+                />
+
+                <label for="city">City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  pattern="[A-Za-z ]{2,}"
+                  required
+                  placeholder="Enter city"
+                />
+                <label for="zip">Zip Code</label>
+                <input
+                  type="number"
+                  name="zip"
+                  pattern="\d{5}([\-]\d{4})?"
+                  required
+                  placeholder="Enter zip code"
+                />
+
+                <label for="subject">Subject:</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Enter subject"
+                />
+
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Enter a message"
+                ></textarea>
+                <button id="btnSubmit" type="submit">Send Message</button>
+              </form>
             </section>
-            <!--   section class hikerow1  -->
-            <section class="homerow">
-              <section class="hikeimage">
-                <img
-                  src="images/dieter_f_uchtdorf_quote_small.jpeg"
-                  alt="Image of Dieter F. Uchtdorf quote: In family relationsships, love is really spelled t-i-m-e."
-                />
-              </section>
-              <section class="hikeimage">
-                <img
-                  src="images/redwood_giant_tree.jpeg"
-                  alt="Image of a giant Redwood tree in the Santa Cruz mountains."
-                />
-              </section>
+            <!--  section class form  -->
+            <section class="homeimage">
+              <h2>Note:</h2>
+              <h2>contact form is not functional yet.</h2>
+              <img
+                src="images/meme_clark_better.jpeg"
+                alt="“We do not have to be
+              perfect, but we need to be good and getting better.” —Elder Kim B.
+              Clark, “Eyes to See and Ears to Hear”"
+              />
             </section>
-            <!--  section class hikerrow2  -->
           </div>
-          <!--  div class sfbaynature  -->
-
-          <div class="hike">
-            <a name="hike">
-              <h1>Hikes around the greater San Franciso Bay Area</h1>
-              <h2>Hikes</h2>
-
-              <h3>John Nicholas trail at Sanborn County Park</h3>
-              <p>
-                Mountain biking trails. There is a flat/easy section at the
-                beginning and then you can continue up the more steep and
-                challenging section which takes you to the Ridge Trail on top of
-                the hill.
-              </p>
-
-              <h3>Almaden Quicksilver County Park</h3>
-              <p>
-                Some nice trails for hiking or biking. There is some mining
-                equipment/information on display.
-              </p>
-
-              <h3>Calero County Park</h3>
-              <p>
-                A favorite place to bike. Try the Lisa Killough trail and Cottle
-                Trail loop.
-              </p>
-
-              <h3>Goat Rock Overlook Loop at Castle Rock State Park</h3>
-              <p>
-                A favorite hike about 3-4 miles and it has views of the Santa
-                Cruz mountains and a waterfall if you’re lucky.
-              </p>
-
-              <h3>Golden Gate National Recreation Area</h3>
-              <p>Definitely worth a visit. Great views of SF and the Bay.</p>
-
-              <h3>Uvas Canyon near Morgan Hill</h3>
-              <p>A beautiful and shady place to hike.</p>
-
-              <h3>Mount Tamalpais State Park</h3>
-              <p>
-                A lot to offer. Try the Cataract Falls hike and the Dipsea/Steep
-                Ravine Loop. For the Dipsea trail, a hike down to Stinson Beach
-                has a snack shack for a mid hike break.
-              </p>
-
-              <h3>Point Reyes National Seashore</h3>
-              <p>Worth a visit.</p>
-            </a>
-          </div>
+          <!--  div class contactinfo  -->
         </main>
 
         <footer>

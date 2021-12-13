@@ -9,6 +9,7 @@ Every box is composed of four parts (or areas), defined by their respective edge
   --maxwidth: 960px;
   --headfootcolor: #d8d2c6;
   --wallpaperaltcolor: #b0b59e;
+  --darkorange: #ea7222;
   /* --wallpaperaltcolor: #d8d6bd; */
 }
 
@@ -56,16 +57,15 @@ footer {
 
 h1 {
   color: #4e6181;
-  font-size: 2.2rem;
-  /*  Agnes to choose font.
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*  Agnes to choose font.  */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /*  font-family: "Courier New", Courier, monospace;  */
+  margin: 10px;
 }
 
 h2 {
-  color: #ea7222;
+  color: var(--darkorange);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
@@ -134,7 +134,120 @@ p {
 
 .named h1 {
   /* not needed- justify-self: center; */
+  font-size: 2.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding-bottom: 5px;
+}
+
+.welcome {
+  font-family: cursive;
+  font-size: 3rem;
+  color: var(--darkorange);
+  padding: 40px;
+}
+
+.homerow {
+  display: flex;
+  flex-direction: row;
+}
+
+.homebubble {
+  height: 320px;
+  background-color: var(--headfootcolor);
+  padding: 20px;
+}
+
+.homebubble p {
+  line-height: 1.6;
+}
+
+.homeimage {
+  padding: 20px;
+}
+
+.homeimage h2 {
+  margin: 10px;
+  color: #384208;
+}
+
+.sfbaynature {
+  padding-bottom: 40px;
+}
+
+.compass {
+  width: 120px;
+  height: 240px;
+  background-color: #bcc2c5;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.compass h2 {
+  margin: 15px;
+}
+
+.compass,
+.hikeimage {
+  padding: 10px;
+}
+
+.youthbubble {
+  height: 600px;
+  background-color: var(--headfootcolor);
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.thanks {
+  font-family: cursive;
+  font-size: 1.6rem;
+  color: var(--darkorange);
+  padding: 40px;
+}
+
+.items {
+  border-radius: 60px;
+  padding: 0.25rem;
+  background-color: var(--headfootcolor);
+  text-align: left;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+.contactinfo {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-template-columns: 1fr 1fr;
+  width: 450px;
+  align-items: center;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  padding: 0.35rem;
+  font-size: 1.1rem;
+}
+
+label {
+  text-align: right;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #cdccba;
+}
+
+button {
+  grid-column: 1/3;
 }
 
 .email a {
