@@ -149,6 +149,7 @@ p {
 .homerow {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .homebubble {
@@ -166,7 +167,8 @@ p {
 }
 
 .homeimage h2 {
-  margin: 10px;
+  margin: 0px;
+  padding-bottom: 20px;
   color: #384208;
 }
 
@@ -191,6 +193,32 @@ p {
   padding: 10px;
 }
 
+.subjects {
+  width: 90%;
+  background-color: #f2d0a2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  padding-bottom: 40px;
+}
+
+.subjects h2 {
+  color: #ffffff;
+  text-shadow: 2px 2px #8f7860;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listing {
+  display: flex;
+  flex-direction: column;
+}
+
+.listing h1 {
+  text-align: center;
+}
+
 .youthbubble {
   height: 600px;
   background-color: var(--headfootcolor);
@@ -207,16 +235,11 @@ p {
 
 .items {
   border-radius: 60px;
-  padding: 0.25rem;
+  padding: 2rem;
   background-color: var(--headfootcolor);
   text-align: left;
   margin: 40px;
   line-height: 1.6;
-}
-
-.contactinfo {
-  display: flex;
-  flex-direction: row;
 }
 
 form {
