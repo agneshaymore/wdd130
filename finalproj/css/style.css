@@ -1,8 +1,4 @@
-/*   CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.
-
-Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
-
--- MDN Intro to CSS Basic Box Model  */
+/*   Agnes Haymore: Intro Web final project (Fall 2021). Brother Blazzard.  */
 
 :root {
   /*  other -- use rem base (scale to font size)  */
@@ -56,7 +52,15 @@ footer {
 }
 
 h1 {
+  font-size: 2.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+  /* padding-bottom: 5px; */
+}
+
+h2 {
   color: #4e6181;
+  font-size: 2rem;
   /*  Agnes to choose font.  */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -64,19 +68,22 @@ h1 {
   margin: 10px;
 }
 
-h2 {
+h3 {
   color: var(--darkorange);
+  font-size: 1.6rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  margin-top: 40px;
 }
 
-h3 {
+h4 {
   color: #384208;
+  font-size: 1.2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 10px;
+  margin-top: 15px;
 }
 
 p {
@@ -132,13 +139,6 @@ p {
   padding-bottom: 5px;
 }
 
-.named h1 {
-  /* not needed- justify-self: center; */
-  font-size: 2.2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding-bottom: 5px;
-}
-
 .welcome {
   font-family: cursive;
   font-size: 3rem;
@@ -186,7 +186,7 @@ p {
   padding-left: 10px;
 }
 
-.compass h2 {
+.compass h3 {
   margin: 15px;
 }
 
@@ -207,7 +207,7 @@ p {
   padding-bottom: 40px;
 }
 
-.subjects h2 {
+.subjects h3 {
   color: #ffffff;
   text-shadow: 2px 2px #8f7860;
   font-family: Arial, Helvetica, sans-serif;
@@ -218,12 +218,13 @@ p {
   flex-direction: column;
 }
 
-.listing h1 {
+.listing h2 {
   text-align: center;
 }
 
 .youthbubble {
   height: 600px;
+  width: 160px;
   background-color: var(--headfootcolor);
   padding: 20px;
   line-height: 1.6;
